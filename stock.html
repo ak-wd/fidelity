@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <title></title>
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+     <script type="text/javascript" src="stock.js"></script>
+   </head>
+   <body>
+     <table id="stock_table" border="1">
+       <thead>
+         <tr>
+           <td><strong>Stock Name</strong></td>
+           <td><strong>Stock Symbol</strong></td>
+           <td><strong>Stock Industry</strong></td>
+           <td><strong>Stock Validity</strong></td>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>Alphabet Inc. Class A</td>
+           <td>GOOGL</td>
+           <td>Technology</td>
+           <td>2 years</td>
+        </tr>
+        <tr>
+          <td>Apple Inc.</td>
+          <td>AAPL</td>
+          <td>Technology</td>
+          <td>1 years</td>
+        </tr>
+           <td>Verisign Inc.</td>
+           <td>VRSN</td>
+          <td>Internet Security</td>
+          <td>2 years</td>
+         </tr>
+         <tr>
+           <td>Wal-Mart Stores Inc.</td>
+           <td>WMT</td>
+           <td>Retail Stores</td>
+           <td>4 years</td>
+         </tr>
+         <tr>
+           <td>Fidelity</td>
+           <td>FNCMX</td>
+           <td>Investments</td>
+           <td>3 years</td>
+         </tr>
+       </tbody>
+     </table>
+     <form name="myForm" id="myForm">
+        <h3>Add Stocks</h3>
+        <input type="text" name="s_name" id="s_name" placeholder="Stock Name">
+        <input type="text" name="s_sym" id="s_sym" placeholder="Stock Symbol">
+        <input type="text" name="s_ind" id="s_ind" placeholder="Stock Industry">
+        <input type="text" name="s_val" id="s_val" placeholder="Stock Validity">
+        <button id="addbtn" type="button" >Add Stock</button>
+      </form>
+   </body>
+ </html>
